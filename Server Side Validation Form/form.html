@@ -1,0 +1,57 @@
+<html>
+
+<head>
+	
+
+	<style type="text/css">
+		
+		body
+		{
+		margin-top: 40px;
+		}
+		
+		form
+		{
+			background: lightyellow;
+			width: 400px;
+			height: 400px;
+			border: 2px solid red;
+			margin-left: 450px;
+			padding: 25px;
+			
+		}
+	</style>
+</head>
+
+<body>
+	<h2 style="text-align: center;">Server Side Validation Form</h2>
+	<form action="demo.php" method="get">
+		
+		<table>
+			<tr><td><legend>First Name : </legend></td> <td><input type="text" name="fname"></td></tr> 
+			<tr><td><legend>Last Name : </legend></td> <td><input type="text" name="lname"></td></tr>
+			<tr><td><legend>E-mail Id : </legend></td> <td><input type="text" name="ename"></td></tr>
+			<tr><td><legend>Password : </legend></td> <td><input type="password" name="pname"></td></tr>
+			<tr><td><legend>Mobile Number : </legend></td> <td><input type="text" name="mname"></td></tr>
+			<tr><td><legend>Gender : </legend></td> <td><input type="radio" name="gender" value="Male">Male
+								    <input type="radio" name="gender" value="Female">Female</td></tr>
+			<tr><td><legend>Hobby : </legend></td> <td><input type="checkbox" name="hobby[0]" value="Cricket">Cricket
+								    <input type="checkbox" name="hobby[1]" value="Football">Football
+								    <input type="checkbox" name="hobby[2]" value="Swimming">Swimming</td></tr>
+			<tr><td><legend>Select City : </legend></td><td><select name="city">
+									<option value="select">Select</option>
+									<option value="1">Kolkata</option>
+									<option value="2">Pune</option>
+									<option value="3">Delhi</option>
+									<option value="4">Mumbai</option>
+									<option value="5">Chennai</option>
+									<option value="6">Banglore</option>				
+								  </select></td></tr>
+
+			<tr><td><input type="submit" name ="submit" value="Submit"></td><td><input type="reset" name ="reset" value="Reset"></td></tr>
+			 
+			 
+		</table>
+	</form>
+</body>
+</html>

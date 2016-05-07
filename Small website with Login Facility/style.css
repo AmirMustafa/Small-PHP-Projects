@@ -1,0 +1,32 @@
+*
+{
+margin-top:0;
+margin-left:0;
+}
+#head 
+{  height:150px;  background:orange; }
+#head h1
+{
+	text-align:center;
+	color:black;
+	text-shadow:4px 4px 5px red;
+}
+#head_in { 	padding-top:65px; }
+#head_in a
+{
+	text-decoration:none;
+	text-transform:uppercase;
+	margin-left:50px;
+	color:#663399;		
+}
+#form
+{
+	margin-top:50px; margin-left:350px;
+}
+#content p
+{
+	text-align:justify;
+	font-size:14px;
+	font-family:arial;
+	margin:20px 20px;
+}
